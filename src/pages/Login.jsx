@@ -13,7 +13,7 @@ export default function Login() {
   const [password, setPassword] = useState("qwerty");
 
   useEffect(() => {
-    if (isAuthenticated) navigate("/app");
+    if (isAuthenticated) navigate("/app", { replace: true });
   }, [isAuthenticated, navigate]);
 
   const handleSubmit = (e) => {
