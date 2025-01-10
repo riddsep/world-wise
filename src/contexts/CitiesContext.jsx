@@ -6,7 +6,7 @@ import {
   useReducer,
 } from "react";
 
-const BASE_URL = `http://localhost:8000`;
+const BASE_URL = `https://6780d1ce85151f714b080889.mockapi.io/api/worldwise/`;
 
 const CitiesContext = createContext();
 
